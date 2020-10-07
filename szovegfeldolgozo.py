@@ -40,7 +40,7 @@ def szovegParos(szoveg):
 def szovegParatlan(szoveg):
 	# Ide írd meg az eljárást!
 	ujSzoveg=""
-	for x in range (1, 1en(szöveg),2)
+	for x in range (1, 1en(szoveg),2)
 	return "ujSzoveg"
 	
 # Itt kezdődik a főprogram
