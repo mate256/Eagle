@@ -36,7 +36,7 @@ def szovegParos(szoveg):
 # Az eljárást készítette: Mezei Olívia
 def szovegParos(szoveg):
 	ujSzoveg = ""
-	for x in range(0, len(szöveg),2):
+	for x in range(0, len(szoveg),2):
 		ujSzoveg = ujSzoveg + szoveg[x]
 	return ujSzoveg
 	
@@ -45,8 +45,9 @@ def szovegParatlan(szoveg):
 >>>>>>> 680d562a9d1f9f8323b1aca99119a98bb040e238
 	# Ide írd meg az eljárást!
 	ujSzoveg=""
-	for x in range (1, 1en(szoveg),2)
-	return "ujSzoveg"
+	for x in range(1, len(szoveg),2):
+		ujSzoveg = ujSzoveg + szoveg[x]
+	return ujSzoveg
 	
 # Az eljárást készítette:
 def szovegParatlan(szoveg):
@@ -62,4 +63,4 @@ print(szovegFordit(szoveg))
 
 =======
 print(szovegParos(szoveg))
->>>>>>> 680d562a9d1f9f8323b1aca99119a98bb040e238
+print(szovegParatlan(szoveg))
