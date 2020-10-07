@@ -16,10 +16,13 @@ def szovegFordit(szöveg):
 	...
 	return vissza
 """
-# Az eljárást készítette:
+# Az eljárást készítette: Szivák Gergő
 def szovegFordit(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+	ujSzoveg = ""
+	for x in range(len(szoveg)-1,-1,-1):
+	ujSzoveg=ujSzoveg+szoveg[x] 
+	
+	return "ujSzoveg"
 	
 # Az eljárást készítette:	
 def szovegCsere(szoveg):
