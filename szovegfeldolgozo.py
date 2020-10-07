@@ -26,16 +26,19 @@ def szovegCsere(szoveg):
 	# Ide írd meg az eljárást!
 	return ""
 	
-# Az eljárást készítette: Mezei Olívia
-def szovegParos(szoveg):
-	for x in rage (0, 1en(szöveg),2)
-	return "ujSzoveg"
-	
 # Az eljárást készítette:	
-def szovegParatlan(szoveg):
+def szovegParos(szoveg):
 	# Ide írd meg az eljárást!
 	return ""
+	
+# Az eljárást készítette:
+def szovegParatlan(szoveg):
+	szovegparatlan=""
+	for x in range(0,len(szoveg),1):
+		szovegParatlan+szovegParatlan(x)
+	return szovegParatlan
 	
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
 print(szovegFordit(szoveg))
+
