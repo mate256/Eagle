@@ -28,7 +28,8 @@ def szovegCsere(szoveg):
 	
 # Az eljárást készítette: Mezei Olívia
 def szovegParos(szoveg):
-	for x in range(0, len(szöveg),2)
+	for x in range(0, len(szöveg),2):
+		ujSzoveg = ujSzoveg + szoveg[x]
 	return "ujSzoveg"
 	
 # Az eljárást készítette:	
