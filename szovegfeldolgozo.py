@@ -22,7 +22,7 @@ def szovegFordit(szoveg):
 	for x in range(len(szoveg)-1,-1,-1):
 		ujSzoveg=ujSzoveg+szoveg[x] 
 	
-	return "ujSzoveg"
+	return ujSzoveg
 	
 # Az eljárást készítette:	
 def szovegCsere(szoveg):
@@ -31,9 +31,10 @@ def szovegCsere(szoveg):
 	
 # Az eljárást készítette: Mezei Olívia
 def szovegParos(szoveg):
+	ujSzoveg = ""
 	for x in range(0, len(szöveg),2):
 		ujSzoveg = ujSzoveg + szoveg[x]
-	return "ujSzoveg"
+	return ujSzoveg
 	
 # Az eljárást készítette:	
 def szovegParatlan(szoveg):
@@ -43,3 +44,4 @@ def szovegParatlan(szoveg):
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
 print(szovegFordit(szoveg))
+print(szovegParos(szoveg))
