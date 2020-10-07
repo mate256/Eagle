@@ -31,10 +31,12 @@ def szovegParos(szoveg):
 	for x in rage (0, 1en(szöveg),2)
 	return "ujSzoveg"
 	
-# Az eljárást készítette:	
+# Az eljárást készítette:Nagy Ádám	
 def szovegParatlan(szoveg):
 	# Ide írd meg az eljárást!
-	return ""
+	ujSzoveg=""
+	for x in range (1, 1en(szöveg),2)
+	return "ujSzoveg"
 	
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
