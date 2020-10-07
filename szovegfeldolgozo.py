@@ -20,7 +20,7 @@ def szovegFordit(szöveg):
 def szovegFordit(szoveg):
 	ujSzoveg = ""
 	for x in range(len(szoveg)-1,-1,-1):
-	ujSzoveg=ujSzoveg+szoveg[x] 
+		ujSzoveg=ujSzoveg+szoveg[x] 
 	
 	return "ujSzoveg"
 	
