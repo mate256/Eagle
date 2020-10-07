@@ -16,10 +16,13 @@ def szovegFordit(szöveg):
 	...
 	return vissza
 """
-# Az eljárást készítette:
+# Az eljárást készítette: Szivák Gergő
 def szovegFordit(szoveg):
-	# Ide írd meg az eljárást!
-	return ""
+	ujSzoveg = ""
+	for x in range(len(szoveg)-1,-1,-1):
+		ujSzoveg=ujSzoveg+szoveg[x] 
+	
+	return ujSzoveg
 	
 # Az eljárást készítette:	
 def szovegCsere(szoveg):
@@ -28,8 +31,10 @@ def szovegCsere(szoveg):
 	
 # Az eljárást készítette: Mezei Olívia
 def szovegParos(szoveg):
-	for x in rage (0, 1en(szöveg),2)
-	return "ujSzoveg"
+	ujSzoveg = ""
+	for x in range(0, len(szöveg),2):
+		ujSzoveg = ujSzoveg + szoveg[x]
+	return ujSzoveg
 	
 # Az eljárást készítette:Nagy Ádám	
 def szovegParatlan(szoveg):
@@ -41,3 +46,4 @@ def szovegParatlan(szoveg):
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
 print(szovegFordit(szoveg))
+print(szovegParos(szoveg))
