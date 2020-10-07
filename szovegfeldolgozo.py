@@ -40,10 +40,12 @@ def szovegParos(szoveg):
 def szovegParatlan(szoveg):
 	# Ide írd meg az eljárást!
 	ujSzoveg=""
-	for x in range (1, 1en(szoveg),2)
-	return "ujSzoveg"
+	for x in range(1, len(szoveg),2):
+		ujSzoveg = ujSzoveg + szoveg[x]
+	return ujSzoveg
 	
 # Itt kezdődik a főprogram
 szoveg=input("Írj be egy szöveget:")
 print(szovegFordit(szoveg))
 print(szovegParos(szoveg))
+print(szovegParatlan(szoveg))
